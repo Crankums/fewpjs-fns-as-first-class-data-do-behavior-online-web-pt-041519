@@ -13,9 +13,12 @@ function greet() {
 function displayMessage(time) {
   let hours = time.split(":")
   let phours = parseInt(hours[0], 10)
-  if (phours < 12) {
-    return "Good Morning"
-  }
+    if (phours < 12) {
+      return "Good Morning"
+    }
+    if (phours > 12 && < 5) {
+      return "Good Afternoon"
+    }
 }
 /* Write your implementation of greet() */
 /* Write your implementation of displayMessage() */
