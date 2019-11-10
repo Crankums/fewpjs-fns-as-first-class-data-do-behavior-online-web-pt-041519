@@ -10,10 +10,10 @@ function greet() {
 
 }
 
-function displayMessage() {
+function displayMessage(time) {
+  let hours = time.split(":")
+  if (time )
 
 }
-
-
 /* Write your implementation of greet() */
 /* Write your implementation of displayMessage() */
