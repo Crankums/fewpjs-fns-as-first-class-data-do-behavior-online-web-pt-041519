@@ -12,7 +12,7 @@ function greet() {
 
 function displayMessage(time) {
   let hours = time.split(":")
-  if (time
+  if (time)
 
 }
 /* Write your implementation of greet() */
