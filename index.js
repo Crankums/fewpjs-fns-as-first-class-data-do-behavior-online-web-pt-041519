@@ -16,7 +16,6 @@ function displayMessage(time) {
   if (phours < 12) {
     return "Good Morning"
   }
-
 }
 /* Write your implementation of greet() */
 /* Write your implementation of displayMessage() */
