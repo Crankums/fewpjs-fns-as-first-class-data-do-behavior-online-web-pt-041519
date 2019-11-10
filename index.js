@@ -16,7 +16,7 @@ function displayMessage(time) {
     if (phours < 12) {
       return "Good Morning"
     }
-    if (phours > 12 && < 5) {
+    if (phours > 12 && phours < 5) {
       return "Good Afternoon"
     }
     else {
